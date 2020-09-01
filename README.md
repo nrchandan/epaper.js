@@ -1,5 +1,7 @@
 # ePaper.js
+
 Node.js library for easily creating an ePaper display on a Raspberry Pi using HTML and Javascript.
+
 * Render HTML DOM onto ePaper display
 * Simple and extensible Javascript and WebSocket API
 * [Supports multiple Waveshare ePaper Displays](#supported-hardware)
@@ -7,9 +9,13 @@ Node.js library for easily creating an ePaper display on a Raspberry Pi using HT
 
 ![Example weather station](images/weather.jpg)
 ![Example ereader gif](images/ereader.gif)
+
 ## Working with the API
+
 ###
+
 Create `static/index.html`. The contents of this webpage will be rendered onto the ePaper display.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +32,7 @@ Create `static/index.html`. The contents of this webpage will be rendered onto t
     </script>
 </body>
 </html>
+
 ```
 From Node.js initialize ePaper.js. This does the following:
 * Creates a webserver that serves `index.html` from the `static` directory
